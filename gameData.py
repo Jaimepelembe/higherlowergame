@@ -1,7 +1,5 @@
 # -*- coding: utf-8 -*-
 """
-data.py
-
 Lista de dicionários com informação sobre pessoas famosas (atores, atletas,
 cantores) e marcas conhecidas mundialmente.
 
