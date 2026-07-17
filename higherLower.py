@@ -18,15 +18,12 @@ def chooseDictionary():
         return dictionary
     
 
-
-
 def newGame():
     score=0
     gameOver=False
     fileName="highScore.txt"
     highScore=validateInteger(readFile(fileName))
     timeUsed=0
-    #print(type(highScore))
     optionA = chooseDictionary()
 
     while not gameOver and len(data)>0:
@@ -62,6 +59,3 @@ def newGame():
         if score> highScore:
                 highScore=score
                 writeFile(fileName,f"{highScore}") 
-
-
-
